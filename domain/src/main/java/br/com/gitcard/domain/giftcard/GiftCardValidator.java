@@ -17,10 +17,10 @@ public class GiftCardValidator extends Validator {
 
     @Override
     public void validate() {
-        checkNameConstraints();
+        checkConstraints();
     }
 
-    private void checkNameConstraints() {
+    private void checkConstraints() {
         final var token = this.card.getRedemptionToken();
         final var code = this.card.getRedemptionCode();
         final var balance = this.card.getBalance();
