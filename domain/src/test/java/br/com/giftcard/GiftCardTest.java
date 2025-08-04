@@ -1,5 +1,7 @@
-package br.com.gitcard.domain.giftcard;
+package br.com.giftcard;
 
+import br.com.giftcard.GiftCard;
+import br.com.giftcard.Transactions;
 import br.com.shared.exceptions.DomainException;
 import br.com.shared.validation.handler.ThrowsValidationHandler;
 import org.junit.jupiter.api.Assertions;

@@ -1,4 +1,4 @@
-package br.com.gitcard.domain.giftcard;
+package br.com.giftcard;
 
 import br.com.shared.GenericGateway;
 

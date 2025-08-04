@@ -6,10 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="5f1d9e0b-57c0-4620-9b13-7b90a0a1ba01" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/br/com/rescue/AnimalRescue.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/br/com/rescue/AnimalRescue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/br/com/rescue/AnimalRescueValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/br/com/rescue/AnimalRescueValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/br/com/shared/exceptions/DomainException.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/br/com/shared/exceptions/DomainException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/test/java/br/com/rescue/AnimalRescueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/br/com/rescue/AnimalRescueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/br/com/gitcard/domain/giftcard/GiftCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/br/com/giftcard/GiftCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/br/com/gitcard/domain/giftcard/GiftCardGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/br/com/giftcard/GiftCardGateway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/br/com/gitcard/domain/giftcard/GiftCardID.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/br/com/giftcard/GiftCardID.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/br/com/gitcard/domain/giftcard/GiftCardValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/br/com/giftcard/GiftCardValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/br/com/gitcard/domain/giftcard/Transactions.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/br/com/giftcard/Transactions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/test/java/br/com/gitcard/domain/giftcard/GiftCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/br/com/giftcard/GiftCardTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,8 +142,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/domain/src/test/java/br/com/gitcard/domain/giftcard/GiftCardTest.java</url>
-          <line>63</line>
+          <url>file://$PROJECT_DIR$/domain/src/test/java/br/com/giftcard/GiftCardTest.java</url>
+          <line>65</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -163,6 +165,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/gitcard$All_in_domain.ic" NAME="All in domain Coverage Results" MODIFIED="1754087651227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/gitcard$All_in_domain.ic" NAME="All in domain Coverage Results" MODIFIED="1754266315701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
