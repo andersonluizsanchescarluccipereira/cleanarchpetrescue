@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5f1d9e0b-57c0-4620-9b13-7b90a0a1ba01" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/br/com/gitcard/domain/giftcard/GiftCardValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/br/com/gitcard/domain/giftcard/GiftCardValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/src/main/java/br/com/rescue/AnimalRescue.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/br/com/rescue/AnimalRescue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/br/com/rescue/AnimalRescueValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/br/com/rescue/AnimalRescueValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/br/com/shared/exceptions/DomainException.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/br/com/shared/exceptions/DomainException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/test/java/br/com/rescue/AnimalRescueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/br/com/rescue/AnimalRescueTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +22,8 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Record" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -71,6 +73,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AnimalRescueTest.givenNameWithMoreThan255Characters_whenValidate_shouldReturnNotificationException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="domain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.rescue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.rescue" />
+      <option name="MAIN_CLASS_NAME" value="br.com.rescue.AnimalRescueTest" />
+      <option name="METHOD_NAME" value="givenNameWithMoreThan255Characters_whenValidate_shouldReturnNotificationException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GiftCardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="domain" />
       <extension name="coverage">
@@ -102,6 +120,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in domain" />
+        <item itemvalue="JUnit.AnimalRescueTest.givenNameWithMoreThan255Characters_whenValidate_shouldReturnNotificationException" />
         <item itemvalue="JUnit.GiftCardTest" />
       </list>
     </recent_temporary>
@@ -129,6 +148,16 @@
           <url>file://$PROJECT_DIR$/domain/src/main/java/br/com/shared/exceptions/NotificationException.java</url>
           <line>7</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/domain/src/test/java/br/com/rescue/AnimalRescueTest.java</url>
+          <line>234</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/domain/src/main/java/br/com/rescue/AnimalRescueValidator.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

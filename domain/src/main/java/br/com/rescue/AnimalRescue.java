@@ -3,9 +3,12 @@ package br.com.rescue;
 import br.com.rescue.enums.HealthStatus;
 import br.com.rescue.enums.RescueStatus;
 import br.com.shared.AggregateRoot;
+import br.com.shared.exceptions.DomainException;
+import br.com.shared.validation.Error;
 import br.com.shared.validation.ValidationHandler;
 
 import java.time.Instant;
+import java.util.Collections;
 import java.util.List;
 
 public class AnimalRescue extends AggregateRoot<AnimalRescueID> implements Cloneable {
@@ -119,5 +122,16 @@ public class AnimalRescue extends AggregateRoot<AnimalRescueID> implements Clone
         } catch (CloneNotSupportedException e) {
             throw new AssertionError();
         }
+    }
+    public <T> void movePhotoDown(List<T> list, int index) throws DomainException {
+        if (index < 0 || index >= list.size() - 1) {
+            var message = new Error("'photoUrls' index " + index + " is out of bounds");
+            throw new DomainException(message.toString() ,List.of(message));
+        }
+        Collections.swap(list, index, index + 1);
+    }
+    public <T> void moveItemUp(List<T> list,int index) {
+        if (index <= 0 || index >= list.size()) return;
+        Collections.swap(list, index, index - 1);
     }
 }

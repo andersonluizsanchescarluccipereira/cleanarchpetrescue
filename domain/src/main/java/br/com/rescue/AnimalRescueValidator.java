@@ -28,7 +28,7 @@ public class AnimalRescueValidator extends Validator {
 
     private void checkConstraints() {
         final var name = animalRescue.getName();
-        final int length = name.trim().length();
+
         final Instant rescueDate = animalRescue.getRescueDate();
         final HealthStatus healthStatuStatus = animalRescue.getHealthStatus();
         final RescueStatus status = animalRescue.getStatus();
@@ -85,7 +85,9 @@ public class AnimalRescueValidator extends Validator {
                 break;
             }
         }
-        if (length < NAME_MIN_LENGTH || length > NAME_MAX_LENGTH) {
+        final int length = name.length();
+
+        if (length < 1 || length > 255) {
             this.validationHandler().append(new Error("'name' must be between 1 and 255 characters"));
         }
     }
